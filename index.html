@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>The Super Mario Bros</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles/global.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <div id="background">
+      <video loop autoplay muted>
+        <source src="./assets/background-video.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+<div id="app">
+  <header>
+    <img src="./assets/logo-cap.png" alt="">
+
+    <ul class="navigation">
+      <li>
+        <a href="#" class="navigation__link">Home</a>
+      </li>
+      <li>
+        <a href="#" class="navigation__link">Story</a>
+      </li>
+      <li>
+        <a href="#" class="navigation__link">Wallpapers</a>
+      </li>
+      <li>
+        <a href="#" class="navigation__link">Trailer</a>
+      </li>
+    </ul>
+
+    <div class="navigation__social">
+      <ul>
+        <li>
+          <a href="https://github.com/RodrigoAnizewski" target="_blank">
+            <img src="./assets/github.svg" alt="ícone GitHub" class="icone" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/rodrigo-lima-anizewski-183926235/" target="_blank">
+            <img src="./assets/linkedin-in.svg" alt="ícone LinkedIn" class="icone" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+</div>
+
+<main>
+  <div class="main__info">
+    <img 
+     data-aos="fade-up"
+     data-aos-duration="800"
+     data-aos-easing="ease-in-out"
+     src="./assets/logo-movie.png" 
+     width="230px"
+    />
+
+    <p
+     data-aos="fade-up"
+     data-aos-delay="300"
+     data-aos-duration="800"
+     data-aos-easing="ease-in-out"
+    >
+      Um dia, Mario e Luigi vão para no reino dos cogumelos, governado pela Princesa Peach, 
+mas ameaçado pelo rei dos Koopas, Bowser, que vai fazer de tudo para conseguir 
+reinar todos os lugares. É então quando Luigi é raptado por Bowser e o usa para 
+procurar Mario, o único capaz de deter o Koopa e reestabelexcer a paz.
+    </p>
+
+    <div
+     data-aos="fade-up"
+     data-aos-delay="600"
+     data-aos-duration="800"
+     data-aos-easing="ease-in-out"
+     >
+      <a href="https://www.youtube.com/watch?v=cDNkh5WybZo">Assistir Trailer</a>
+      <button>
+        Comprar ingresso
+      </button>
+    </div>
+  </div>
+
+  <img 
+  data-aos="fade-up"
+  data-aos-delay="500"
+  data-aos-duration="800"
+  data-aos-easing="ease-in-out"
+  src="./assets/mario-and-luigi.png" width="420px">
+</main>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
